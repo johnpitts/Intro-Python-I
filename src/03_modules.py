@@ -17,8 +17,11 @@ import fileinput
 #     print(line)
 #     print('hello again')
 # import sys
-print('sys argv shit')
-print(sys.argv[0])
+print('sys argv shit \n')
+print("this is the name of the script: ", sys.argv[0])
+print("number of arguments: ", len(sys.argv))
+print("The arguments are: ", str(sys.argv))
+print("\n")
 
 # Print out the OS platform you're using:
 print(sys.platform)
